@@ -8,6 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	//Este es el primer mensaje un comentario para un commit en git
+		
 		
 		EntityManager em=Conn.getInstancia().getFactory().createEntityManager();
 		
@@ -60,20 +62,22 @@ public class Main {
 
             switch (opcion) {
                 case 1:
-                    // Ejecutar código para ingresar cita
+                	
                     break;
                 case 2:
-                    // Ejecutar código para mostrar citas del doctor
+                  
                     break;
                 case 3:
                     salir = true;
                     break;
                 default:
-                    System.out.println("Opción inválida.");
+                    System.out.println("Opcion no valida");
             }
 		
 		}
 		
+		
+		System.out.println("un commit");
 		
 	}
 
